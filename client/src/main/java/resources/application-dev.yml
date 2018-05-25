@@ -1,0 +1,23 @@
+logging:
+  config: classpath:logback.xml
+
+
+spring:
+  freemarker:
+    templateLoaderPath: classpath:/templates/
+    suffix: .ftl
+    cache: false
+    allow-request-override: false
+    expose-spring-macro-helpers: false
+    expose-request-attributes: false
+    expose-session-attributes: false
+    charset: utf-8
+    check-template-location: true
+    content-type: text/html
+    settings:
+      template_exception_handler: ignore
+    
+server:
+  context-path: /
+  port: 8088
+
