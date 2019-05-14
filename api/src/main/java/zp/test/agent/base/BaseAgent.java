@@ -51,7 +51,7 @@ public interface BaseAgent<E> {
 	/**
 	 * 不带分页的查询list
 	 * @param map
-	 * @return
+	 * @return1
 	 */
 	List<E> selectListByMap(Map<Object,Object> map);
 }
